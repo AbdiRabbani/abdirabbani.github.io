@@ -11,7 +11,7 @@ const server = http.createServer((req, res) =>{
 
     //ROUTING
     if(url == "/login"){
-        fs.readFile('index.html', (err, data) => {
+        fs.readFile('./index.html', (err, data) => {
             if(err){
                 res.writeHead(404)
                 res.write('Error: file not found')
