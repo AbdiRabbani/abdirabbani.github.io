@@ -10,6 +10,17 @@ body{
     font-size: 40px;
 }
 
+.abdi1 li :hover{
+    color: aqua;
+    text-shadow: 10%;
+    transition: 0.4s;
+}
+
+.abdi1 .active {
+    color: aqua;
+}
+
+
 .abdi1 {
     display: flex;
     justify-content: space-between;
@@ -22,9 +33,16 @@ body{
     font-family: 'Fredoka';
 }
 
-.abdi1 li {
+.abdi1 li  {
     display: inline;
     margin: 15px;
+    font-size: 20px;
+
+}
+
+.abdi1 li a {
+    text-decoration: none;
+    color: black;
 }
 
 img {
