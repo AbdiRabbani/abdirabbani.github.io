@@ -33,4 +33,12 @@ img {
     margin-right: auto;
     width: 50%;
     border-radius: 50%;
+    width: 500px;
+    height: 500px;
+  }
+
+  .wrap h1{
+      text-align: center;
+      margin-top: 70px;
+      font-family: 'Courier New', Courier, monospace;
   }
