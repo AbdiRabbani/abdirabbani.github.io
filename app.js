@@ -6,7 +6,6 @@ const renderHTML = (path, res) => {
             res.writeHead(404)
             res.write('Error: file not found')
         } else {
-            console.log(data.toString())
             res.write(data.toString())
         }
         res.end()
@@ -19,10 +18,9 @@ const server = http.createServer((req, res) => {
 
     res.setHeader("Content-Type", "text/html")
     url = req.url.toLocaleLowerCase()
-    console.log(url)
     //ROUTING
     if (url == "/login") {
-        renderHTML('index.html', res)
+        renderHTML('html/home.html', res)
     } else if (url == "/singup") {
         dataResponse = {
             data: " Ini adalah halaman singup"
@@ -39,4 +37,4 @@ const server = http.createServer((req, res) => {
     res.end()
 });
 
-server.listen(5000)
+server.listen(5456)
