@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Red+Hat+Mono&family=Red+Rose&family=Reem+Kufi:wght@400;500&family=Source+Sans+Pro&display=swap');
 
-body{
+body {
     background-color: white;
 }
 
@@ -10,7 +10,7 @@ body{
     font-size: 40px;
 }
 
-.abdi1 li :hover{
+.abdi1 li :hover {
     color: aqua;
     text-shadow: 10%;
     transition: 0.4s;
@@ -33,7 +33,7 @@ body{
     font-family: 'Fredoka';
 }
 
-.abdi1 li  {
+.abdi1 li {
     display: inline;
     margin: 15px;
     font-size: 20px;
@@ -45,18 +45,28 @@ body{
     color: black;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 50%;
-    width: 500px;
-    height: 500px;
-  }
 
-  .wrap h1{
-      text-align: center;
-      margin-top: 70px;
-      font-family: 'Courier New', Courier, monospace;
-  }
+.containcer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.name{
+    margin-top: 30px;
+}
+
+.name h1 {
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+    margin-left: 70px;
+}
+
+.name ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: .5rem;
+    margin-left: 30px;
+    font-family: 'Fredoka';
+}
