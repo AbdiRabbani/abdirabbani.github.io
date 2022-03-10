@@ -23,8 +23,7 @@ body{
 
 .abdi1 {
     display: flex;
-    justify-content: space-between;
-    color: black;
+    justify-content: space-between
 }
 
 .abdi1 ul {
