@@ -1,0 +1,227 @@
+@media screen and (max-width: 1242px) {
+
+    .about-content div:nth-child(1) img {
+       width: 300px;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(1) {
+        margin-top: 50px;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(1) p:nth-child(1) {
+        font-size: 1rem;
+    } 
+
+    .about-content div:nth-child(2) div:nth-child(1) p:nth-child(2) {
+        font-size: 0.7rem;
+        color: grey;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(2) p {
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 114%;
+    }
+
+    .about-content div:nth-child(3) img {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 907px) {
+    .nav-header h1 {
+        font-size: 0.8rem;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-header {
+        font-size: 1rem;
+    }
+
+    .about-content div:nth-child(1) img {
+        width: 100%;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(1) p:nth-child(1) {
+        font-size: 0.8rem;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(2) p {
+        font-size: 0.8rem;
+    }
+
+    .skill-header p {
+        font-size: 1rem;
+    }
+
+    .certi-header p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    
+    .content {
+        font-size: 1.5rem;
+        width: 335px;
+    }
+    .content__container {
+        height: 40px;
+        padding: 0 40px;
+    }
+
+    .skill-content {
+        flex-wrap: wrap;
+    }
+
+    .flip-card {
+        width: 200px;
+        height: 200px;
+        margin: 8px;
+    }
+
+    .certi-content img {
+        width: 300px;
+    }
+
+    .img-footer {
+        width: 100%;
+        margin-bottom: -2%;
+    }
+
+    .footer-content h1 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        width: 37%;
+    }
+
+    .footer-content div:nth-child(2) iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 635px) {
+
+    .about-content {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-content div {
+        width: 50%;
+    }
+
+    .about-content div:nth-child(1) {
+        align-items: center;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(1) p:nth-child(1) {
+        font-size: 1.2rem;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(1) p:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .about-content div:nth-child(2) div:nth-child(2) p {
+        font-size: 0.8rem;
+    }
+
+    .about-content div:nth-child(3) {
+        display: none;
+    }
+
+    .certi-content img:nth-child(3) {
+        display: none;
+    }
+
+    .certi-content img:nth-child(4) {
+        display: none;
+    }
+
+    .certi-content img:nth-child(5) {
+        display: none;
+    }
+
+    .certi-content img:nth-child(6) {
+        display: none;
+    }
+
+    .footer-content h1 {
+        font-size: 1rem;
+    }
+
+    .footer-content a {
+        font-size: 0.6rem;
+    }
+
+    .footer-content li {
+        align-items: center;
+    }
+
+    .footer-content li img {
+        width: 5%;
+    }
+
+    .footer-content div:nth-child(2) div p {
+        font-size: 0.6rem;
+     }
+
+     .footer-copyright p{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .nav-header div:nth-child(2) ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        right: -100%;
+        top: 60px;
+        background: #34495e;
+        opacity: 90%;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 0px;
+        transition: all .5s;
+    }
+
+    .nav-header div:nth-child(2) ul.show {
+        right: 0;
+    }
+
+    .nav-header div:nth-child(2) li {
+        display: block;
+        margin: 10px 0px;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .nav-header div:nth-child(2) li:hover {
+        background-color: transparent;
+        border-radius: 0px;
+        color: grey;
+    }
+
+    .nav-header #icon {
+        display: flex;
+    }
+
+    .comment-container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .footer-content div:nth-child(2) iframe {
+        width: 100%;
+        height: 30%;
+    }
+}

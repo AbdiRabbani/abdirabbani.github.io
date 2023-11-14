@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: url('/assets/cursor/cursor.cur') 50 50, auto !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(169, 169, 169);
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.floating-button {
+    display: flex;
+    flex-direction: row;
+    background: #34495e;
+    width: 200px;
+    position: fixed;
+    top: 50px;
+    font-size: 0.8rem;
+    right: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: white;
+}
+
+.floating-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.floating-button .back-btn{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.floating-button .back-btn:hover a{
+    cursor: pointer;
+    color: rgb(208, 208, 208);
+}
+
+.floating-button .download-btn{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.floating-button .download-btn:hover a{
+    cursor: pointer;
+    color: rgb(208, 208, 208);
+}
+
+.image-head {
+    width: 50%;
+}
+
+.image-head img {
+    width: 100%;
+}
+
+@media screen and (max-width : 1200px) {
+    .image-head {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 750px) {
+    .floating-button {
+       font-size: 0.5rem;
+       width: 150px;
+       height: 40px;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .image-head {
+        width: 100%;
+    }
+}
